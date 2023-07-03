@@ -6,6 +6,7 @@ body {
 #logo {
     display: flex;
     justify-content: center;
+    font-size: 38px;
 }
 
 a {
@@ -17,10 +18,63 @@ a {
     display: flex;
     justify-content:space-between;
     margin-bottom: 30px;
+    font-size: 16px;
 }
 
 #foto {
     width: 100%;
+}
+
+#textoprincipal {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+
+#fonte {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#titulodestaque1 {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.grupo {
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    color: #f9ed02
+}
+
+.personagemlista {
+    font-size: 15px;
+    color: #ffffff
+}
+
+#footer {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#tituloemdestaque3 {
+    flex-direction: column;
+}
+
+#telefoneredes {
+    display: flex;
+    justify-content:space-between;
 }
 
 #conteudo {
