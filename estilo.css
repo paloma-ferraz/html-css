@@ -1,0 +1,33 @@
+body {
+    background-color:#f9ed02;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: unset;
+    color:#222222
+}
+
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+#foto {
+    width: 100%;
+}
+
+#conteudo {
+    background-color:#222222;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: #222222 5px 5px 10px; 
+}
