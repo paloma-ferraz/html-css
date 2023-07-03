@@ -60,6 +60,23 @@ a {
     color: #ffffff
 }
 
+#tabela {
+    display: flex;
+    justify-content: center;
+}
+
+#titulodestaque2 {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#G70S5fumHso {
+    display: flex;
+    justify-content: center;
+}
+
 #footer {
     display: flex;
     justify-content:space-between;
