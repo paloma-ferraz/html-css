@@ -6,12 +6,12 @@ body {
 h1 {
     animation-name: mudacor;
     animation-duration: 5s;
-    color: #722c93
+    color: #46adc7
 }
 
 @keyframes mudacor {
-    from {color:#46adc7;}
-    to {color: #722c93;}
+    from {color:#722c93;}
+    to {color: #46adc7;}
 }
 
 #logo {
