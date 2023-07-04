@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+    font-style: italic;
     animation-name: mudacor;
     animation-duration: 5s;
     color: #46adc7
@@ -57,19 +58,21 @@ a {
 #titulodestaque1 {
     flex-direction: column;
     text-align: center;
-    color: #ffffff;
+    color: #f9ed02;
     font-size: 24px;
 }
 
 .grupo {
+    font-style: italic;
     flex-direction: column;
     text-align: center;
     font-size: 18px;
-    color: #f9ed02
+    color: #46adc7
 }
 
 .personagemlista {
     font-size: 15px;
+    font-style: normal;
     color: #ffffff
 }
 
@@ -78,10 +81,18 @@ a {
     justify-content: center;
 }
 
+.titulotabela {
+    color:#f9ed02
+}
+
+td {
+    color: #ffffff;
+}
+
 #titulodestaque2 {
     flex-direction: column;
     text-align: center;
-    color: #ffffff;
+    color: #f9ed02;
     font-size: 24px;
 }
 
