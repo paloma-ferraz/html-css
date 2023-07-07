@@ -152,7 +152,7 @@ td {
 
 .flex-container > div {
     display: flex;
-    padding: 5px;
+    padding: 2px;
     justify-content: space-between
 }
 
