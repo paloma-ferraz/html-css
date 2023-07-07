@@ -150,9 +150,10 @@ td {
     flex-direction: column;
 }
 
-#telefoneredes {
+.flex-container > div {
     display: flex;
-    justify-content:space-between;
+    padding: 5px;
+    justify-content: space-between
 }
 
 input {
