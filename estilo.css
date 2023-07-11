@@ -146,14 +146,26 @@ td {
     margin-bottom: 30px;
 }
 
-#tituloemdestaque3 {
-    flex-direction: column;
+#telefone {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
 }
 
-.flex-container > div {
+#zap {
     display: flex;
-    padding: 2px;
-    justify-content: space-between
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
 }
 
 input {
