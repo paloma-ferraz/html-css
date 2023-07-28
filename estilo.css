@@ -148,19 +148,19 @@ td {
 
 #telefone {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 20px;
 }
 
 #zap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 20px;
 }
 
 #redes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .flex-container {
