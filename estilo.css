@@ -3,14 +3,18 @@ body {
     background-color:#f9ed02;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-h1 {
-    font-family: "Cyberpunk", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    animation-name: mudacor;
-    animation-duration: 5s;
-    color: #46adc7
+ 
+html {
+    scroll-behavior: smooth;
 }
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+    body {
+
+    }
+}
+/* mobile */
 
 @font-face {
     font-family: "Cyberpunk";
@@ -32,6 +36,15 @@ h1 {
 @keyframes mudacor {
     from {color:#722c93;}
     to {color: #46adc7;}
+}
+
+
+h1 {
+    font-family: "Cyberpunk", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    animation-name: mudacor;
+    animation-duration: 5s;
+    color: #46adc7
 }
 
 #logo {
